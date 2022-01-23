@@ -1,0 +1,27 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "Just for fun",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "args":"node cmd-line-args.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YashS96/Playground.git"
+  },
+  "author": "Yash Shrivastava",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YashS96/Playground/issues"
+  },
+  "homepage": "https://github.com/YashS96/Playground#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
