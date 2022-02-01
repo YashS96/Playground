@@ -1,6 +1,6 @@
 import orders from '../model/orders.js'
 
-const getbookingDetails=async(req,res)=>{
+export const getbookingDetails=async(req,res)=>{
 
     try{
         //appropriate call to DB collection
