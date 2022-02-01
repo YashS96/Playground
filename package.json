@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Just for fun",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "args":"node cmd-line-args.js",
-    "reference":"node reference.js"
+    "args": "node cmd-line-args.js",
+    "reference": "node reference.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,10 @@
   },
   "homepage": "https://github.com/YashS96/Playground#readme",
   "dependencies": {
-    "express": "^4.17.2"
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
